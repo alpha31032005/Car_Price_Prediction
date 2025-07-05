@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
-# Load trained model
+# Loading trained model
 model = pickle.load(open('car_model1.pkl', 'rb'))
 
 # Inject custom CSS for floating labels
